@@ -36,12 +36,12 @@ var App = React.createClass({
   componentWillUnmount: function() {
     clearInterval(this.interval);
   },
-  tick: function tick() {
+  tick: function() {
     this.setState({
       i: this.state.i + 1
     });
   },
-  render: function render() {
+  render: function() {
     return React.createElement('ul', null, React.createElement('li', null, this.state.i));
   }
 });
