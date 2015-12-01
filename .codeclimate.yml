@@ -1,0 +1,7 @@
+engines:
+  eslint:
+    enabled: true
+  fixme:
+    enabled: false
+ratings:
+  paths:

@@ -1,0 +1,38 @@
+{
+  "name": "react-worker",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "main": "src/react-worker.js",
+  "description": "react in a web worker",
+  "keywords": [
+    "react",
+    "thread",
+    "worker",
+    "web-worker",
+    "webworker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/react-worker.git"
+  },
+  "author": "Sérgio Ramos <mail@sergioramos.me>",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "NODE_ENV=debug istanbul cover -- lab -l test/*.js"
+  },
+  "dependencies": {
+    "end-of-stream": "^1.1.0",
+    "json-to-react-element": "^1.0.0",
+    "lodash.defaults": "^3.1.2",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-json-stream": "^1.0.9",
+    "readable-stream": "^2.0.4",
+    "worker-stream": "^1.0.2"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": "^0.1.1",
+    "lab": "^6.2.0",
+    "nyc": "^3.2.2"
+  }
+}
